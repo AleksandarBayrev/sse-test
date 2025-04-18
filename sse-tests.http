@@ -1,0 +1,6 @@
+@sse_tests_HostAddress = http://localhost:5235
+
+GET {{sse_tests_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
